@@ -1,0 +1,15 @@
+name: prathamesh workflow
+
+on:
+   push:
+      branches: [ main ]
+
+
+          jobs:
+          demo:
+          runs-o: ubuntu-latest
+
+          steps:
+           -name:greetings
+           run: echo "hello workflow "
+           
