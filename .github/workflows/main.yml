@@ -4,12 +4,11 @@ on:
    push:
       branches: [ main ]
 
-
           jobs:
           demo:
-          runs-o: ubuntu-latest
+          runs-on: ubuntu-latest
 
           steps:
-           -name:greetings
+           - name: Greetings
            run: echo "hello workflow "
            
